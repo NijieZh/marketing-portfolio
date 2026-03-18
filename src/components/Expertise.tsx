@@ -8,37 +8,28 @@ import '../assets/styles/Expertise.scss';
 const labelsFirst = [
     "React",
     "TypeScript",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
-    "Python",
+    "Next.js",
+    "Redux",
+    "Styled Component",
+    "Material UI",
+    "Node.js",
+    "Nest.js",
+    "RestfulAPI",
     "SQL",
-    "PostgreSQL",
-    "Postman"
+    "GraphQL"
 ];
 
 const labelsSecond = [
-    "Git",
-    "GitHub Actions",
-    "Docker",
-    "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    "Module Federation",
+    "Webpack",
 ];
 
 const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "Vitest",
+    "Jest",
+    "Cypress",
+    "Story book",
+    "Azure App Service",
 ];
 
 function Expertise() {
@@ -50,7 +41,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
                     <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <p>I build complete web applications end-to-end — pixel-perfect React UIs paired with robust Node.js and Java backends. 9 years of experience delivering enterprise-scale products from requirements to production.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -61,8 +52,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <h3>Micro Frontend</h3>
+                    <p>I contribute to scalable MFE systems that let independent packages ship in parallel — with shared component libraries and module federation keeping the experience consistent across the entire product.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -73,8 +64,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <h3>Testing & Dev Tooling</h3>
+                    <p>I embed quality into the development workflow — not as an afterthought. From unit tests to full E2E automation, I build testing pipelines that give teams the confidence to ship fast.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
